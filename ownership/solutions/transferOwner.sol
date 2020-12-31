@@ -1,3 +1,5 @@
+pragma solidity ^0.7.0;
+
 function safeTransferOwnership(address newOwner) external onlyOwner {
   require(newOwner!=address(0), "Owned: Address must not be null");
   require(candidate Owner != newOwner, "Owned: Same candidate owner"); 
